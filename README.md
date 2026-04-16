@@ -15,14 +15,14 @@ The aim of this project is to learn :
 - How to run your multi-container Docker application on a remote server.
 - How to open necessary ports on your EC2 instance's Security Group for your application.
 
-# Part 1 : Deploying Docker to AWS with Terraform
-## Prerequisites
+## Part 1 : Deploying Docker to AWS with Terraform
+### Prerequisites
 - Have an AWS Account.
 - Have completed Lab 3 and understand Docker basics.
 - Have Docker, Terraform and AWS CLI Installed and Configured.
 
-## Step-by-Step Instructions : 
-### Step 1: Create Your Terraform Configuration Files
+### Step-by-Step Instructions : 
+#### Step 1: Create Your Terraform Configuration Files
 Terraform uses .tf configuration files to define the infrastructure. For this application, we will create two files: a main.tf file to describe our server, and a variables.tf file to store some settings that might change. To complete Step 1, follow the instructions below : 
 Create a new folder on your computer named aws-docker-infra.
 Inside aws-docker-infra, create a new file named main.tf.
